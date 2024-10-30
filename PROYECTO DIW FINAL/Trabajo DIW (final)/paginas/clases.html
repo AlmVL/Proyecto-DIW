@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Actividades Dirigidas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Iconos de Google Fonts  -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+  <!-- Iconos de Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Fuentes de Google-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron&family=Roboto&family=Shrikhand&family=Black+Ops+One&family=Archivo+Black&family=Alfa+Slab+One:wght@400;900&display=swap"
+    rel="stylesheet">
+  <style>
+    .material-symbols-outlined {
+      font-size: 24px;
+      color: #6FAEFF;
+    }
+
+    .bg-black {
+      background-color: black;
+    }
+
+    .img-fluid {
+      height: 100%;
+      object-fit: cover;
+      /* Para que la dichosa imagen coja todo el alto del contenedor */
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Header -->
+  <div class="container-fluid bg-black" id="top">
+    <div class="row justify-content-around align-items-center py-2">
+      <div class="col-auto d-flex align-items-center">
+        <span class="material-symbols-outlined me-2">euro</span>
+        <span style="color: #fafcff;">LOW PRICE</span>
+      </div>
+      <div class="col-auto d-flex align-items-center">
+        <span class="material-symbols-outlined me-2">free_cancellation</span>
+        <span style="color: #fafcff;">SIN PERMANENCIA</span>
+      </div>
+      <div class="col-auto d-flex align-items-center">
+        <span class="material-symbols-outlined me-2">Fitness_Center</span>
+        <span style="color: #fafcff;">INSTALACIONES ÚNICAS</span>
+      </div>
+      <div class="col-auto d-flex align-items-center">
+        <span class="material-symbols-outlined me-2">Schedule</span>
+        <span style="color: #fafcff;">AMPLIOS HORARIOS</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Barra de navegación-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black p-0 mt-0">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../inicio.html">
+        <img src="../img/Gimnasio Montequinto2.png" alt="Gimnasio Montequinto" style="height: 80px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link fs-4" href="../inicio.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fs-4" href="#">Clases</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  fs-4 " href="instructores.html">Instructores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-4" href="gestion.html">Gestión</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-4" href="#contacto">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-4" href="#tarifa">Tarifas</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Lista de clases -->
+
+  <div class="container mt-4">
+    <h1 class="text-start" style="font-family: 'Black Ops One', 'Alfa Slab One', 'Archivo Black', sans-serif; font-weight: 800; color: #2B4970; text-decoration: underline; margin-bottom: 20px;">
+      Clases Dirigidas:
+    </h1>
+    <div class="row">
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card border-secondary h-100 d-flex flex-column">
+          <img src="https://img.freepik.com/free-photo/people-doing-indoor-cycling_23-2149270265.jpg?w=1060" class="card-img-top" style="height: 150px; object-fit: cover;" alt="Virtual Cycling">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title bg-black text-bg-dark p-1">Virtual Cycling</h5>
+            <p class="card-text mb-1"><small class="text-body-secondary">6:30-7:15 / 20:00-20:45/ 21:00-21:45</small></p>
+            <p class="card-text mb-0">Entrenador: INSTRUCTOR VIRTUAL</p>
+            <p class="card-text fw-bold">Sala: SALA SPEED</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card border-success h-100 d-flex flex-column">
+          <img src="https://cdn.pixabay.com/photo/2017/01/03/07/52/weights-1948813_1280.jpg" class="card-img-top" style="height: 150px; object-fit: cover;" alt="Pilates">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title bg-black text-bg-dark p-1">Pilates</h5>
+            <p class="card-text mb-1"><small class="text-body-secondary">7:30-8:15 / 10:30-11:45 / 19:00-19:45</small></p>
+            <p class="card-text mb-0">Entrenador: Patri Moreno</p>
+            <p class="card-text fw-bold">Sala: SALA AGILITY</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card border-warning h-100 d-flex flex-column">
+          <img src="https://cdn.pixabay.com/photo/2017/02/09/16/29/kettlebell-2052775_1280.jpg" class="card-img-top" style="height: 150px; object-fit: cover;" alt="CrossFit">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title bg-black text-bg-dark p-1">CrossFit</h5>
+            <p class="card-text mb-1"><small class="text-body-secondary">7:30-8:15 / 8:30-9:15 / 19:00-19:45</small></p>
+            <p class="card-text mb-0">Entrenador: Manuel Padilla</p>
+            <p class="card-text fw-bold">Sala: SALA CROSS</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card border-danger h-100 d-flex flex-column">
+          <img src="https://wallpaperaccess.com/full/3529702.jpg" class="card-img-top" style="height: 150px; object-fit: cover;" alt="Zumba">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title bg-black text-bg-dark p-1">Zumba</h5>
+            <p class="card-text mb-1"><small class="text-body-secondary">10:30-11:15 / 18:00-18:45 / 20:00-20:45</small></p>
+            <p class="card-text mb-0">Entrenador: Manuel Padilla</p>
+            <p class="card-text fw-bold">Sala: SALA RYTHM</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card border-success h-100 d-flex flex-column">
+          <img src="https://images.pexels.com/photos/868483/pexels-photo-868483.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" style="height: 150px; object-fit: cover;" alt="GAP">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title bg-black text-bg-dark p-1">GAP</h5>
+            <p class="card-text mb-1"><small class="text-body-secondary">8:30-9:15 / 9:30-10:15 / 18:00-18:45</small></p>
+            <p class="card-text mb-0">Entrenador: Patri Moreno</p>
+            <p class="card-text fw-bold">Sala: SALA AGILITY</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card border-danger h-100 d-flex flex-column">
+          <img src="https://images.pexels.com/photos/8957662/pexels-photo-8957662.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" style="height: 150px; object-fit: cover;" alt="Latino">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title bg-black text-bg-dark p-1">Latino</h5>
+            <p class="card-text mb-1"><small class="text-body-secondary">9:30-10:15 / 11:30-12:15 / 19:00-19:45</small></p>
+            <p class="card-text mb-0">Entrenador: Amanda Pérez</p>
+            <p class="card-text fw-bold">Sala: SALA RYTHM</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-6 col-md-6 col-lg-3 mb-3">
+        <div class="card border-warning h-100 d-flex flex-column">
+          <img src="https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" style="height: 150px; object-fit: cover;" alt="HIIT">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title bg-black text-bg-dark p-1">HIIT</h5>
+            <p class="card-text mb-1"><small class="text-body-secondary">11:30-12:15 / 18:00-18:45</small></p>
+            <p class="card-text mb-0">Entrenador: Laura Sánchez</p>
+            <p class="card-text fw-bold">Sala: SALA CROSS</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-6 col-md-6 col-lg-3 mb-3">
+        <div class="card border-danger h-100 d-flex flex-column">
+          <img src="https://images.pexels.com/photos/864990/pexels-photo-864990.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" style="height: 150px; object-fit: cover;" alt="Aerobic">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title bg-black text-bg-dark p-1">Aerobic</h5>
+            <p class="card-text mb-1"><small class="text-body-secondary">10:30-11:15 / 20:00-20:45</small></p>
+            <p class="card-text mb-0">Entrenador: Ana Gracia</p>
+            <p class="card-text fw-bold">Sala: SALA RYTHM</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+  <div class="container mt-0 mb-4">
+    <a class="icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.75rem, 0); font-size: 20px;"
+      href="instructores.html">
+      <i class="bi bi-person-arms-up"></i>
+      Conoce a nuestros monitores
+    </a>
+  </div>
+
+
+  <!--Tarifas-->
+
+  <div class="container mt-4 bg-info-subtle" id="tarifa">
+    <h2 class="text-center mb-4 fw-bold text-decoration-underline fst-italic fs-1">Tarifas</h2>
+    <h4 class="text-center mb-4">¿Te han gustado las clases? Si estás deseando empezar aquí tienes nuestras tarifas:
+    </h4>
+    <div class="row ">
+      <!-- Aquí empieza el Plan Básico pa cambiar lo que sea -->
+      <div class="col-md-4 mb-5">
+        <div class="card border-primary">
+          <div class="card-body text-center">
+            <h5 class="card-title bg-dark-subtle">Plan Básico</h5>
+            <h3 class="card-text fw-bold">20€/mes</h3>
+            <ul class="list-unstyled">
+              <li>Acceso a todas las clases</li>
+              <li>1 sesión personalizada/mes</li>
+              <li>Acceso de 7:00h a 14:00h</li>
+            </ul>
+            <a href="#" class="btn btn-primary bg-dark stretched-link">Contratar</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Plan Premium -->
+      <div class="col-md-4 mb-5">
+        <div class="card border-success bg-success-subtle">
+          <div class="card-body text-center">
+            <h5 class="card-title bg-success fw-bold fs-2">Plan Premium</h5>
+            <h3 class="card-text fw-bold fs-1 text-decoration-underline">40€/mes</h3>
+            <h4>(recomendado)</h4>
+            <ul class="list-unstyled">
+              <li>Acceso ilimitado</li>
+              <li>2 sesiones personalizadas/mes</li>
+              <li>Acceso a jacuzzi</li>
+            </ul>
+            <a href="#" class="btn btn-success stretched-link">Contratar</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Plan VIP -->
+      <div class="col-md-4 mb-5">
+        <div class="card border-warning bg-warning-subtle">
+          <div class="card-body text-center">
+            <h5 class="card-title bg-warning">Plan VIP</h5>
+            <h3 class="card-text fw-bold">60€/mes</h3>
+            <ul class="list-unstyled">
+              <li>Acceso ilimitado</li>
+              <li>Sesiones personalizadas ilimitadas</li>
+              <li>Acceso a sauna y eventos especiales</li>
+            </ul>
+            <a href="#" class="btn btn-warning stretched-link">Contratar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--Offfset Personal-->
+  <div class="container mt-4">
+    <div class="row">
+      <button class="btn btn-outline-dark fw-bold d-lg-none" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive">*Entrenamiento a Domicilio*
+      </button>
+
+      <div class="alert alert-dark bg-dark text-light text-center d-none d-lg-inline-block fw-bold fs-3"> *Entrenamiento
+        Personalizado a Domicilio*
+
+      </div>
+
+      <div class="offcanvas-lg offcanvas-end" tabindex="-1" id="offcanvasResponsive"
+        aria-labelledby="offcanvasResponsiveLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title text-bg-dark p-2 mb-0" id="offcanvasResponsiveLabel">Entrenamiento Personalizado
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive"
+            aria-label="Close"></button>
+        </div>
+
+        <p class="p-1 fw-bold">Si quieres entrenar de manera personalizada en tu casa con uno de nuestros entrenadores
+          consulta con
+          nuestros <a class="link-opacity-50-hover" href="instructores.html">monitores.</a> Las plazas
+          son limitadas.</p>
+
+        <p class="mb-0"><span class="badge bg-danger mb-1">¡Últimas plazas!</span></p>
+        <p class="p-0"> Plazas ocupadas actualmente: </p>
+
+
+
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100">65%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Contacto comprimido-->
+  <section id="contacto" class="py-5" style="background-color: #F9FEFF;">
+    <div class="container">
+      <hr class="my-4" style="border: 2px solid #6FAEFF;">
+      <h2 class="text-center" style="font-family: 'Lobster', cursive; color: #6FAEFF;">Contáctanos</h2>
+      <p class="text-center" style="color: #2B4970;">Estamos aquí para ayudarte. Visítanos o escríbenos.</p>
+
+      <!-- Contenedor del botón -->
+      <div class="d-flex justify-content-center mb-4">
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseContacto"
+          aria-expanded="false" aria-controls="collapseContacto">
+          Contacto
+        </button>
+      </div>
+
+      <div class="collapse" id="collapseContacto">
+        <div class="row">
+          <div class="col-md-6">
+            <h5 style="color: #2B4970;">Dirección</h5>
+            <p style="color: #303C74;">Av. San José de Calasanz, 4, 41089 Dos Hermanas, Sevilla</p>
+
+            <h5 style="color: #2B4970;">Email</h5>
+            <p style="color: #303C74;">info@gimnasiomontequinto.com</p>
+
+            <h5 style="color: #2B4970;">Teléfono</h5>
+            <p style="color: #303C74;">+34 123 456 789</p>
+
+            <div class="social-icons">
+              <a href="#" style="text-decoration: none; font-size: 36px; margin-right: 20px; color: #758EFF;">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a href="#" style="text-decoration: none; font-size: 36px; margin-right: 20px; color: #758EFF;">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="#" style="text-decoration: none; font-size: 36px; color: #758EFF;">
+                <i class="bi bi-twitter-x"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <h5 style="color: #2B4970;">Horario de Apertura</h5>
+            <ul style="color: #303C74;">
+              <li>Lunes a Viernes: 7:00 AM - 10:00 PM</li>
+              <li>Sábado: 8:00 AM - 8:00 PM</li>
+              <li>Domingo: Cerrado</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-md-12">
+            <h5 style="color: #2B4970;">Ubicación</h5>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d513.9993834934039!2d-5.937552083871589!3d37.34372434288829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126fd79dabb633%3A0x4730da8754b7404c!2sCentro%20de%20Formaci%C3%B3n%20Pablo%20Guzm%C3%A1n%20Pueyo!5e1!3m2!1ses!2ses!4v1729103715457!5m2!1ses!2ses"
+              width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Flecha que te redirige al navbar -->
+  <div class="position-fixed bottom-0 end-0 p-3">
+    <a href="#top" class="btn btn-black">
+      <i class="bi bi-arrow-up-circle-fill fs-1"></i>
+    </a>
+  </div>
+
+  <!--Footer-->
+  <footer class="py-4" style="background-color: #000000; color: #F9FEFF;">
+    <div class="container">
+      <div class="row">
+        <div class="col text-start">
+          <a href="privacidad.html" class="text-decoration-none text-light mx-2">Política de Privacidad</a> |
+          <a href="cookies.html" class="text-decoration-none text-light mx-2">Política de Cookies</a>
+        </div>
+        <div class="col text-end">
+          <p class="mb-0">Gimnasio Montequinto &copy; 2024. <span class="small">Todos los derechos reservados.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

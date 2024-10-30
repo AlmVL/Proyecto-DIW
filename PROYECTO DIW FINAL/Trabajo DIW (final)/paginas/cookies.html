@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gestion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- Iconos de Google Fonts  -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <style>
+        .material-symbols-outlined {
+            font-size: 24px;
+            color: #6FAEFF;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid bg-black" id="top">
+        <div class="row justify-content-around align-items-center py-2">
+            <div class="col-auto d-flex align-items-center">
+                <span class="material-symbols-outlined me-2">euro</span>
+                <span style="color: #fafcff;">LOW PRICE</span>
+            </div>
+            <div class="col-auto d-flex align-items-center">
+                <span class="material-symbols-outlined me-2">free_cancellation</span>
+                <span style="color: #fafcff;">SIN PERMANENCIA</span>
+            </div>
+            <div class="col-auto d-flex align-items-center">
+                <span class="material-symbols-outlined me-2">Fitness_Center</span>
+                <span style="color: #fafcff;">INSTALACIONES ÚNICAS</span>
+            </div>
+            <div class="col-auto d-flex align-items-center">
+                <span class="material-symbols-outlined me-2">Schedule</span>
+                <span style="color: #fafcff;">AMPLIOS HORARIOS</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Barra de navegación-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black p-0 mt-0">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../inicio.html">
+                <img src="../img/Gimnasio Montequinto2.png" alt="Gimnasio Montequinto" style="height: 80px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fs-4" href="../inicio.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  fs-4" href="clases.html">Clases</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  fs-4 " href="instructores.html">Instructores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-4" href="gestion.html">Gestión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-4" href="../inicio.html#contacto">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-4" href="clases.html#tarifa">Tarifas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row m-3">
+            <h1 class="text-decoration-underline mb-3">Política de Cookies</h1>
+
+            <p>
+                Gimnasio Montequinto S.L. informa acerca del uso de las cookies en su página web: <a
+                    class="link-opacity-60-hover" href="../inicio.html">https://www.gimnasiomontequinto.es</a>
+            </p>
+            <h3>¿Qué son las cookies?</h3>
+            <p>
+                Las cookies son archivos que se pueden descargar en su equipo a través de las páginas web. Son
+                herramientas que tienen un papel esencial para la prestación de numerosos servicios de la sociedad de la
+                información. Entre otros, permiten a una página web almacenar y recuperar información sobre los hábitos
+                de navegación de un usuario o de su equipo y, dependiendo de la información obtenida, se pueden utilizar
+                para reconocer al usuario y mejorar el servicio ofrecido.
+            </p>
+            <h3>Tipos de cookies</h3>
+            <p>
+                Según quien sea la entidad que gestione el dominio desde donde se envían las cookies y trate los datos
+                que se obtengan se pueden distinguir dos tipos:
+            </p>
+            <div>
+                <ul>
+                    <li class="ms-3">
+                        <span class="fw-bold">Cookies propias:</span>
+                        Aquéllas que se envían al equipo terminal del usuario desde un equipo o dominio gestionado por
+                        el
+                        propio editor y desde el que se presta el servicio solicitado por el usuario.
+                    </li>
+                    <li class="ms-3">
+                        <span class="fw-bold">Cookies de terceros:</span>
+                        Aquéllas que se envían al equipo terminal del usuario desde un equipo o dominio que no es
+                        gestionado
+                        por el editor, sino por otra entidad que trata los datos obtenidos a través de las cookies. En
+                        el caso
+                        de que las cookies sean instaladas desde un equipo o dominio gestionado por el propio editor
+                        pero la
+                        información que se recoja mediante éstas sea gestionada por un tercero, no pueden ser
+                        consideradas
+                        como cookies propias.
+                    </li>
+                </ul>
+                <p>Existe también una segunda clasificación según el plazo de tiempo que permanecen almacenadas en el
+                    navegador del cliente, pudiendo tratarse de:</p>
+                <ul>
+                    <li class="ms-3">
+                        <span class="fw-bold">Cookies de sesión:</span>
+                        Diseñadas para recabar y almacenar datos mientras el usuario accede a una página web. Se suelen
+                        emplear para almacenar información que solo interesa conservar para la prestación del servicio
+                        solicitado por el usuario en una sola ocasión (p.e. una lista de productos adquiridos).
+                    </li>
+                    <li class="ms-3">
+                        <span class="fw-bold">Cookies persistentes:</span>
+                        Los datos siguen almacenados en el terminal y pueden ser accedidos y tratados durante un periodo
+                        definido por el responsable de la cookie, y que puede ir de unos minutos a varios años.
+                    </li>
+                </ul>
+                <p>Por último, existe otra clasificación con seis tipos de cookies según la finalidad para la que se
+                    traten
+                    los datos obtenidos:
+                </p>
+                <ul>
+                    <li class="ms-3">
+                        <span class="fw-bold">Cookies técnicas:</span>
+                        Aquellas que permiten al usuario la navegación a través de una página web, plataforma o
+                        aplicación y
+                        la utilización de las diferentes opciones o servicios que en ella existan como, por ejemplo,
+                        controlar el tráfico y la comunicación de datos, identificar la sesión, acceder a partes de
+                        acceso
+                        restringido, recordar los elementos que integran un pedido, realizar el proceso de compra de un
+                        pedido, realizar la solicitud de inscripción o participación en un evento, utilizar elementos de
+                        seguridad durante la navegación, almacenar contenidos para la difusión de vídeos o sonido o
+                        compartir contenidos a través de redes sociales.
+                    </li>
+                    <li class="ms-3">
+                        <span class="fw-bold">Cookies de personalización:</span>
+                        Permiten al usuario acceder al servicio con algunas características de carácter general
+                        predefinidas
+                        en función de una serie de criterios en el terminal del usuario como, por ejemplo, el idioma,
+                        el tipo de navegador, la configuración regional desde donde accede al servicio, etc.
+                    </li>
+                    <li class="ms-3">
+                        <span class="fw-bold">Cookies de análisis:</span>
+                        Permiten el seguimiento y análisis del comportamiento de los usuarios de los sitios web a los
+                        que están vinculadas. La información se utiliza en la medición de la actividad y para elaborar
+                        perfiles de navegación, con el fin de mejorar el servicio.
+                    </li>
+                    <li class="ms-3">
+                        <span class="fw-bold">Cookies publicitarias:</span>
+                        Permiten la gestión, de la forma más eficaz posible, de los espacios publicitarios.
+                    </li>
+                    <li class="ms-3">
+                        <span class="fw-bold">Cookies de publicidad comportamental:</span>
+                        Almacenan información del comportamiento de los usuarios a través de sus hábitos de navegación,
+                        lo que permite desarrollar un perfil específico para mostrar publicidad en función de ese
+                        perfil.
+                    </li>
+                    <li class="ms-3">
+                        <span class="fw-bold">Cookies de redes sociales externas:</span>
+                        Se utilizan para que los visitantes puedan interactuar con el contenido de diferentes
+                        plataformas sociales (Facebook, YouTube, Twitter, LinkedIn, etc.) y se generan solo para los
+                        usuarios de dichas redes sociales. La información recopilada se regula por la política de
+                        privacidad de cada plataforma.
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="container my-5">
+                <!-- Tablas de cookies -->
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h5 class="mb-0">Necesarias (2)</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="mb-3">Las cookies necesarias ayudan a hacer una página web utilizable activando
+                            funciones
+                            básicas como la navegación en la página y el acceso a áreas seguras de la página web. La
+                            página web
+                            no puede funcionar adecuadamente sin estas cookies.</p>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Proveedor</th>
+                                    <th>Propósito</th>
+                                    <th>Duración máxima de almacenamiento</th>
+                                    <th>Tipo</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>PHPSESSID</td>
+                                    <td>gimnasiomontequinto.es</td>
+                                    <td>Conserva los estados de los usuarios en todas las peticiones de la página.</td>
+                                    <td>Sesión</td>
+                                    <td>Cookie HTTP</td>
+                                </tr>
+                                <tr>
+                                    <td>wordpress_test_cookie</td>
+                                    <td>gimnasiomontequinto.es</td>
+                                    <td>Utilizada para comprobar si el navegador del usuario admite cookies.</td>
+                                    <td>Sesión</td>
+                                    <td>Cookie HTTP</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">Preferencias (1)</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="mb-3">Las cookies de preferencias permiten a la página web recordar información que
+                            cambia la
+                            forma en que la página se comporta o el aspecto que tiene, como su idioma preferido o la
+                            región en
+                            la que usted se encuentra.</p>
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Proveedor</th>
+                                    <th>Propósito</th>
+                                    <th>Duración máxima de almacenamiento</th>
+                                    <th>Tipo</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>maps/gen_204</td>
+                                    <td>Google</td>
+                                    <td>Utilizada en el contexto de la integración del mapa web. La cookie almacena la
+                                        interacción del usuario con el mapa con el objeto de mejorar su funcionalidad.
+                                    </td>
+                                    <td>Sesión</td>
+                                    <td>Píxel de Seguimiento</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row m-3">
+                    <h2>Aceptación de la Política de cookies</h2>
+
+                    <p>
+                        GimnasioMontequinto asume que usted acepta el uso de cookies. No obstante,
+                        muestra
+                        información sobre su Política de cookies en la parte inferior o superior de cualquier página del
+                        portal
+                        con cada inicio de sesión con el objeto de que usted sea consciente.
+
+                        Ante esta información es posible llevar a cabo las siguientes acciones:
+                    </p>
+
+
+                    <ul>
+                        <li class="ms-3">
+                            <span class="fw-bold">Aceptar cookies:</span>
+                            No se volverá a visualizar este aviso al acceder a cualquier página del portal durante la
+                            presente
+                            sesión.
+
+                        </li>
+                        <li class="ms-3">
+                            <span class="fw-bold">Cerrar:</span>
+                            Se oculta el aviso en la presente página.
+
+                        </li>
+
+                        <li class="ms-3">
+                            <span class="fw-bold">Modificar su configuración:</span>
+                            Podrá obtener más información sobre qué son las cookies, conocer la Política de cookies de:
+                            https://www.gimnasiomontequinto.es y modificar la configuración de su navegador.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Flecha que te redirige al navbar -->
+    <div class="position-fixed bottom-0 end-0 p-3">
+        <a href="#top" class="btn btn-black">
+            <i class="bi bi-arrow-up-circle-fill fs-1"></i>
+        </a>
+    </div>
+
+    <!--Footer-->
+    <footer class="py-4" style="background-color: #000000; color: #F9FEFF;">
+        <div class="container">
+            <div class="row">
+                <div class="col text-start">
+                    <a href="privacidad.html" class="text-decoration-none text-light mx-2">Política de Privacidad</a> |
+                    <a href="cookies.html" class="text-decoration-none text-light mx-2">Política de Cookies</a>
+                </div>
+                <div class="col text-end">
+                    <p class="mb-0">Gimnasio Montequinto &copy; 2024. <span class="small">Todos los derechos
+                            reservados.</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
