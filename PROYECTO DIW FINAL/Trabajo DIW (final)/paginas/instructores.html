@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Actividades Dirigidas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Iconos de Google Fonts  -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+  <!-- Iconos de Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Fuentes de Google-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron&family=Roboto&family=Shrikhand&family=Black+Ops+One&family=Archivo+Black&family=Alfa+Slab+One:wght@400;900&display=swap"
+    rel="stylesheet">
+  <style>
+    .material-symbols-outlined {
+      font-size: 24px;
+      color: #6FAEFF;
+    }
+
+    .bg-black {
+      background-color: #000000;
+    }
+
+    .img-fluid {
+      height: 100%;
+      object-fit: cover;
+      /* Para que la dichosa imagen coja todo el alto del contenedor */
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container-fluid bg-black" id="top">
+    <div class="row justify-content-around align-items-center py-2">
+      <div class="col-auto d-flex align-items-center">
+        <span class="material-symbols-outlined me-2">euro</span>
+        <span style="color: #fafcff;">LOW PRICE</span>
+      </div>
+      <div class="col-auto d-flex align-items-center">
+        <span class="material-symbols-outlined me-2">free_cancellation</span>
+        <span style="color: #fafcff;">SIN PERMANENCIA</span>
+      </div>
+      <div class="col-auto d-flex align-items-center">
+        <span class="material-symbols-outlined me-2">Fitness_Center</span>
+        <span style="color: #fafcff;">INSTALACIONES ÚNICAS</span>
+      </div>
+      <div class="col-auto d-flex align-items-center">
+        <span class="material-symbols-outlined me-2">Schedule</span>
+        <span style="color: #fafcff;">AMPLIOS HORARIOS</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Barra de navegación-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black p-0 mt-0">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../inicio.html">
+        <img src="../img/Gimnasio Montequinto2.png" alt="Gimnasio Montequinto" style="height: 80px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link fs-4" href="../inicio.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-4 fs-4" href="clases.html">Clases</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fs-4" href="instructores.html">Instructores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-4" href="gestion.html">Gestión</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-4" href="../inicio.html#contacto">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-4" href="clases.html#tarifa">Tarifas</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container mt-4">
+    <h1 class="text-start text-center"
+      style="font-family: 'Black Ops One', 'Alfa Slab One', 'Archivo Black', sans-serif;font-weight: 800; color: #2B4970; text-decoration: underline; margin-bottom: 20px;">
+      Instructores</h1>
+    <h5 class="text-center mb-4" style="font-family:'Shrikhand', 'Lobster', cursive; color: #6FAEFF;">Los mejores
+      profesionales</h5>
+    <div class="row justify-content-center">
+      <div class="col-sm-4">
+        <div class="card text-center">
+          <img src="../img/image1-min-1024x683.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title fw-bold">Patri Moreno</h3>
+          </div>
+          <div class="accordion" id="accordion1">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1">
+                  Sala
+                </button>
+              </h2>
+              <div id="collapseOne1" class="accordion-collapse collapse" aria-labelledby="headingOne1"
+                data-bs-parent="#accordion1">
+                <div class="accordion-body">
+                  Sala Agility
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo1" aria-expanded="false" aria-controls="collapseTwo1">
+                  Especialidad
+                </button>
+              </h2>
+              <div id="collapseTwo1" class="accordion-collapse collapse" aria-labelledby="headingTwo1"
+                data-bs-parent="#accordion1">
+                <div class="accordion-body">
+                  Pilates<br>
+                  GAP
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree1" aria-expanded="false" aria-controls="collapseThree1">
+                  Otros
+                </button>
+              </h2>
+              <div id="collapseThree1" class="accordion-collapse collapse" aria-labelledby="headingThree1"
+                data-bs-parent="#accordion1">
+                <div class="accordion-body">
+                  Enfoque en estiramientos y ejercicios saludables
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card text-center">
+          <img
+            src="../img/retrato-entrenador-personal-sosteniendo-portapapeles-plan-entrenamiento-gimnasio_629665-1947.avif"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title fw-bold">Manuel Padilla</h3>
+          </div>
+          <div class="accordion" id="accordion2">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne2" aria-expanded="false" aria-controls="collapseOne2">
+                  Sala
+                </button>
+              </h2>
+              <div id="collapseOne2" class="accordion-collapse collapse" aria-labelledby="headingOne2"
+                data-bs-parent="#accordion2">
+                <div class="accordion-body">
+                  Sala Rythm<br>
+                  Sala Cross
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
+                  Especialidad
+                </button>
+              </h2>
+              <div id="collapseTwo2" class="accordion-collapse collapse" aria-labelledby="headingTwo2"
+                data-bs-parent="#accordion2">
+                <div class="accordion-body">
+                  Zumba<br>
+                  CrossFit
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2">
+                  Otros
+                </button>
+              </h2>
+              <div id="collapseThree2" class="accordion-collapse collapse" aria-labelledby="headingThree2"
+                data-bs-parent="#accordion2">
+                <div class="accordion-body">
+                  Enfoque en el aumento de masa muscular y perdida de peso
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row justify-content-center">
+      <div class="col-sm-4 mb-4">
+        <div class="card text-center">
+          <img src="../img/Diseño-sin-título-2022-08-05T171121.649.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title fw-bold">Amanda Pérez</h3>
+          </div>
+          <div class="accordion" id="accordion4">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne4" aria-expanded="false" aria-controls="collapseOne4">
+                  Sala
+                </button>
+              </h2>
+              <div id="collapseOne4" class="accordion-collapse collapse" aria-labelledby="headingOne4"
+                data-bs-parent="#accordion4">
+                <div class="accordion-body">
+                  Sala Rythm
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo4" aria-expanded="false" aria-controls="collapseTwo4">
+                  Especialidad
+                </button>
+              </h2>
+              <div id="collapseTwo4" class="accordion-collapse collapse" aria-labelledby="headingTwo4"
+                data-bs-parent="#accordion4">
+                <div class="accordion-body">
+                  Aerobic<br>
+                  Latino
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree4" aria-expanded="false" aria-controls="collapseThree4">
+                  Otros
+                </button>
+              </h2>
+              <div id="collapseThree4" class="accordion-collapse collapse" aria-labelledby="headingThree4"
+                data-bs-parent="#accordion4">
+                <div class="accordion-body">
+                  Enfoque en el movimiento muscular
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card text-center">
+          <img src="../img/entrenadora-personal-02.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title fw-bold">Laura Sánchez</h3>
+          </div>
+          <div class="accordion" id="accordion5">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne5" aria-expanded="false" aria-controls="collapseOne5">
+                  Sala
+                </button>
+              </h2>
+              <div id="collapseOne5" class="accordion-collapse collapse" aria-labelledby="headingOne5"
+                data-bs-parent="#accordion5">
+                <div class="accordion-body">
+                  Sala Cross<br>
+                  Sala Agility
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo5" aria-expanded="false" aria-controls="collapseTwo5">
+                  Especialidad
+                </button>
+              </h2>
+              <div id="collapseTwo5" class="accordion-collapse collapse" aria-labelledby="headingTwo5"
+                data-bs-parent="#accordion5">
+                <div class="accordion-body">
+                  Hiit<br>
+                  Yoga Nidra
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree5" aria-expanded="false" aria-controls="collapseThree5">
+                  Otros
+                </button>
+              </h2>
+              <div id="collapseThree5" class="accordion-collapse collapse" aria-labelledby="headingThree5"
+                data-bs-parent="#accordion5">
+                <div class="accordion-body">
+                  Enfoque en aumentar la resistencia
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Formulario de Entrenadores pokémon xD -->
+  <div class="container m-4">
+    <div class="row">
+      <!-- Botón q no se ve en lg -->
+      <button class="btn btn-dark fw-bold d-lg-none" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasFormulario" aria-controls="offcanvasFormulario">¿Quieres trabajar con
+        nosotros?</button>
+
+      <!-- Botón lg  -->
+      <div class="alert alert-dark bg-dark text-light d-none d-lg-flex w-auto fw-bold fs-5"> ¿Te gustaría formar parte
+        del equipo? Rellena este formulario:</div>
+
+      <!-- Fformulario -->
+      <div class="offcanvas-lg offcanvas-start" tabindex="-1" id="offcanvasFormulario"
+        aria-labelledby="offcanvasFormularioLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title text-bg-dark p-2 mb-0" id="offcanvasFormularioLabel">Formulario de Inscripción
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+          <form>
+            <div class="m-3">
+              <label for="nombre" class="form-label">Nombre y apellidos</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" required>
+            </div>
+            <div class="m-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Ingresa tu email" required>
+            </div>
+            <div class="m-3">
+              <label for="mensaje" class="form-label">Adjunta CV en formato texto: </label>
+              <textarea class="form-control" id="mensaje" rows="3" placeholder="Cuéntanos un poco sobre tu experiencia"
+                required></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark ms-3">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- Flecha que te redirige al navbar -->
+  <div class="position-fixed bottom-0 end-0 p-3">
+    <a href="#top" class="btn btn-black">
+      <i class="bi bi-arrow-up-circle-fill fs-1"></i>
+    </a>
+  </div>
+
+
+  <!--Footer-->
+  <footer class="py-4" style="background-color: #000000; color: #F9FEFF;">
+    <div class="container">
+      <div class="row">
+        <div class="col text-start">
+          <a href="privacidad.html" class="text-decoration-none text-light mx-2">Política de
+            Privacidad</a> |
+          <a href="cookies.html" class="text-decoration-none text-light mx-2">Política de
+            Cookies</a>
+        </div>
+        <div class="col text-end">
+          <p class="mb-0">Gimnasio Montequinto &copy; 2024. <span class="small">Todos los derechos reservados.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
